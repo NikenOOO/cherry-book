@@ -1,4 +1,12 @@
-text = "私の誕生日は1977年7月17日です"
+puts "start"
 
-m = /(\d+)年(\d+)月(\d+)日/.match(text)
+module Greet
+end
 
+begin
+  gre = Greet.new
+rescue => exception
+  puts exception
+end
+
+puts "end"
